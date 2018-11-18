@@ -15,10 +15,15 @@ INSERT INTO books (id, title, year, series_id) VALUES
 (2, 'Book 2', 1956, 1),
 (3, 'Book 3', 1996, 3);
 
-INSERT INTO books (id, title, year, series_id) VALUES
-(1, 'Book 1', 1967, 2),
-(2, 'Book 2', 1956, 1),
-(3, 'Book 3', 1996, 3);
+INSERT INTO characters (id, name, species, motto, series_id, author_id ) VALUES
+(1, 'Character 1', 'Species A', 'Motto A', 1, 2),
+(2, 'Character 2', 'Species B', 'Motto B', 1, 2),
+(3, 'Character 3', 'Species C', 'Motto C', 1, 2),
+(4, 'Character 4', 'Species D', 'Motto D', 1, 2),
+(5, 'Character 5', 'Species E', 'Motto E', 2, 1),
+(6, 'Character 6', 'Species F', 'Motto F', 2, 1),
+(7, 'Character 7', 'Species G', 'Motto G', 2, 1),
+(8, 'Character 8', 'Species H', 'Motto H', 2, 1);
 
 
 
