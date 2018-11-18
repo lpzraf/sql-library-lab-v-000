@@ -31,7 +31,7 @@ end
 def select_series_title_with_most_human_characters
   "SELECT series.title
    FROM series 
-   ORDER BY LENGTH(series.title) ASC 
+   ORDER BY LENGTH(series.title) DESC 
    LIMIT 1"
 end
 
